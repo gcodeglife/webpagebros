@@ -1,0 +1,164 @@
+/* 
+Project Name: Bros Web Page 
+Client: GA Assembly 
+Author: Gerson Bergeth 
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/* add a list of colours used in the project */
+
+/******************************************
+/* SENSIBLE DEFAULTS                   
+/*******************************************/
+
+* {
+     box-sizing: border-box;
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+/* add type styles here */
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+.site-container {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+
+
+.bigsymbol {
+	font-family: 'Vollkorn', Arial, serif;
+	font-size: 550px;
+	color: red;
+	opacity: 0.6;
+	position: absolute;
+	top: -500px;
+	left: +150px;
+ }  
+
+.navtool {
+	font-family: 'Vollkorn', Arial, serif;
+	font-size: 70px;
+	color:white;
+	text-decoration:none;
+	position: absolute;
+    right: 170px;
+    top: 15px;
+}
+
+.site-header {
+	font-family: 'Vollkorn', Arial, serif;
+	font-size: 25px;
+	color: white;
+	background: black;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin: 0px; 
+
+}
+.site-subheading {
+	font-family: 'Vollkorn', Arial, serif;
+	font-size: 15px;
+	color: white;
+	background: gray;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.column1 {
+	font-family: 'Vollkorn', Arial, serif;
+	font-size: 10px;
+	float:left;
+	width: 70%;
+	min-height: 400px;
+	background: red;
+	text-align: center;
+	padding: 10px;
+	margin: 0px; 
+}
+
+.flexslider {
+
+}	
+
+.slides {
+
+}	
+
+.column2 {
+	font-family: 'Vollkorn', Arial, serif;
+	font-size: 15px;
+	float:left;
+	width: 30%;
+	min-height: 400px;
+	background: red;
+	text-align: left;
+	padding: 15px;
+	margin: 0px; 
+}
+
+
+.site-footer {
+	font-family: Arial, serif;
+	font-size: 15px;
+	color: white;
+	background: black;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px; 
+
+}
+
+.imageset {
+	display:inline;
+
+}
+
+
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before {
+	clear:both;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+a {
+
+color:white;
+	text-decoration:none;
+
+}
+
